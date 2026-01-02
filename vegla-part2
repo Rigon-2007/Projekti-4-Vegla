@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+double avg_func(int num1, int num2) {
+    return (num1 + num2) / 2.0;
+}
+
+int main() {
+    int a = 10;
+    int b = 1;
+
+    double avg = avg_func(a, b);
+
+    cout << "Mesatarja: " << avg << endl;
+
+    return 0;
+}
